@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>로그인 - Etevers Learning Attendance</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+</head>
+<body class="landing is-preload">
+    <div id="page-wrapper">
+        <header id="header">
+            <h1><a href="{{ url_for('index') }}">Etevers Learning</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="main" class="container medium">
+            <header>
+                <h2>로그인</h2>
+            </header>
+
+            <!-- 플래시 메시지 표시 -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="box">
+                        <ul class="flashes">
+                            {% for category, message in messages %}
+                                <li class="{{ category }}">{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            {% endwith %}
+            
+            <div class="box">
+                <form id="loginForm" method="post" action="{{ url_for('login') }}">
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-6 col-12-mobilep">
+                            <input type="text" name="user_name" id="name" value="" placeholder="Name" />
+                        </div>
+                        <div class="col-6 col-12-mobilep">
+                            <input type="password" name="user_password" id="password" value="" placeholder="Password" />
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" value="로그인" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- jQuery (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        console.log('jQuery loaded:', typeof jQuery !== 'undefined');
+    </script>
+    <!-- jQuery Dropotron (Local) -->
+    <script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+    <script>
+        console.log('dropotron loaded:', typeof $.fn.dropotron !== 'undefined');
+    </script>
+    <!-- jQuery Scrollex (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+    <script>
+        console.log('scrollex loaded:', typeof $.fn.scrollex !== 'undefined');
+    </script>
+    <!-- Breakpoints (Local) -->
+    <script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+    <script>
+        console.log('breakpoints loaded:', typeof breakpoints !== 'undefined');
+    </script>
+    <!-- Other Scripts (Local) -->
+    <script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+    <script>
+        console.log('browser loaded');
+    </script>
+    <script src="{{ url_for('static', filename='js/util.js') }}"></script>
+    <script>
+        console.log('util loaded');
+    </script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

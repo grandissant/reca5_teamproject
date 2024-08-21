@@ -1,0 +1,13 @@
+nohup: ignoring input
+[2024-07-06 02:26:03 +0000] [23433] [INFO] Starting gunicorn 22.0.0
+[2024-07-06 02:26:03 +0000] [23433] [ERROR] Connection in use: ('127.0.0.1', 5000)
+[2024-07-06 02:26:03 +0000] [23433] [ERROR] Retrying in 1 second.
+[2024-07-06 02:26:04 +0000] [23433] [ERROR] Connection in use: ('127.0.0.1', 5000)
+[2024-07-06 02:26:04 +0000] [23433] [ERROR] Retrying in 1 second.
+[2024-07-06 02:26:05 +0000] [23433] [ERROR] Connection in use: ('127.0.0.1', 5000)
+[2024-07-06 02:26:05 +0000] [23433] [ERROR] Retrying in 1 second.
+[2024-07-06 02:26:06 +0000] [23433] [ERROR] Connection in use: ('127.0.0.1', 5000)
+[2024-07-06 02:26:06 +0000] [23433] [ERROR] Retrying in 1 second.
+[2024-07-06 02:26:07 +0000] [23433] [ERROR] Connection in use: ('127.0.0.1', 5000)
+[2024-07-06 02:26:07 +0000] [23433] [ERROR] Retrying in 1 second.
+[2024-07-06 02:26:08 +0000] [23433] [ERROR] Can't connect to ('127.0.0.1', 5000)

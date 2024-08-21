@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="{{ url_for('index') }}">Etevers Learning</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <!-- 출석 기록 섹션 -->
+        <section id="attendanceSection">
+            <div class="container">
+                <h1>출석부</h1>
+                <div class="attendance-box">
+                    <form id="attendanceForm">
+                        <input type="text" id="username" name="username" placeholder="사용자 이름" readonly>
+                        <input type="text" id="time" name="time" placeholder="출석 시간" readonly>
+                        <textarea id="message" name="message" placeholder="출석 메시지" required></textarea>
+                        <button type="submit" id="attendanceButton">출석하기</button>
+                    </form>
+                </div>
+                <div id="cameraSection">
+                    <p><video id="cameraview" width="720" height="480" autoplay></video></p>
+                    <div style="text-align: center;">
+                        <button id="openBtn">카메라 켜기</button>
+                        <button id="closeBtn">카메라 끄기</button>
+                        <button id="captureBtn">캡처 및 출석 확인</button>
+                    </div>
+                </div>
+                <div id="attendanceLog">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>시간</th>
+                                <th>사용자</th>
+                                <th>메시지</th>
+                            </tr>
+                        </thead>
+                        <tbody id="attendanceTableBody">
+                            <!-- 여기에 출석 기록이 추가됩니다. -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

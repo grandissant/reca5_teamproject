@@ -1,0 +1,9 @@
+Flask
+gunicorn
+requests
+flask_sqlalchemy
+boto3
+pytz
+flask_login
+werkzeug
+pymysql

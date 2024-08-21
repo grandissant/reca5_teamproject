@@ -1,0 +1,41 @@
+# 회원가입 폼 페이지 렌더링 및 데이터 처리
+@app.route('/join_membership', methods=['GET', 'POST'])
+def join_membership():
+    if request.method == 'POST':
+        try:
+            name = request.form.get('user_name')
+            password = request.form.get('user_password')
+            subject = request.form.get('subject')
+            image_file = request.files.get('imageUpload')
+
+            # 필드 확인
+            if not name or not password or not subject or not image_file:
+                flash('모든 필드를 입력해주세요.', 'error')
+                return redirect(url_for('join_membership'))
+
+            # 이미지 파일명 처리
+            image_filename = secure_filename(image_file.filename)
+            temp_dir = tempfile.gettempdir()
+            image_path = os.path.join(temp_dir, image_filename)
+            image_file.save(image_path)
+
+            # 파일 업로드
+            s3.upload_file(image_path, 'test-ju-upload', f'membership/{image_filename}')
+            
+            # 데이터베이스에 새 회원 추가
+            new_member = Member(name=name, password=password, subject=subject, image_filename=f'membership/{image_filename}')
+            db.session.add(new_member)
+            db.session.commit()
+
+            flash('회원가입이 완료되었습니다.', 'success')
+            return redirect(url_for('login'))
+        except Exception as e:
+            # 상세한 에러 로그 기록
+            logging.error('회원가입 중 오류가 발생했습니다: %s', e, exc_info=True)
+            flash(f'회원가입 중 오류가 발생했습니다: {e}', 'error')
+            return redirect(url_for('join_membership'))
+        finally:
+            # 임시 파일 삭제
+            if os.path.exists(image_path):
+                os.remove(image_path)
+    return render_template('join_membership.html')

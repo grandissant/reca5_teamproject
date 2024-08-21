@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile - Etevers Learning</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="{{ url_for('index') }}">Etevers Learning</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <section id="main" class="container">
+            <header>
+                <h2>Profile</h2>
+            </header>
+            <div class="box">
+                <h3>{{ user.name }}</h3>
+                <p>Subject: {{ user.subject }}</p>
+                <img src="{{ image_url }}" alt="Profile Image">
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

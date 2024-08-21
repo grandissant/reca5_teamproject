@@ -1,0 +1,736 @@
+[2024-07-05 02:01:52 +0000] [28682] [INFO] Starting gunicorn 22.0.0
+[2024-07-05 02:01:52 +0000] [28682] [INFO] Listening at: http://127.0.0.1:5000 (28682)
+[2024-07-05 02:01:52 +0000] [28682] [INFO] Using worker: sync
+[2024-07-05 02:01:52 +0000] [28685] [INFO] Booting worker with pid: 28685
+[2024-07-05 02:01:53 +0000] [28686] [INFO] Booting worker with pid: 28686
+[2024-07-05 02:01:53 +0000] [28687] [INFO] Booting worker with pid: 28687
+[2024-07-05 02:01:53 +0000] [28688] [INFO] Booting worker with pid: 28688
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa92628fd40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926290d40>
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926290d40>
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa92591f0e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f40e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259200e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f40e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926290d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259210e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f50e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591de60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591ee60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259210e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f50e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591ee60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591ee60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: http
+Connection: close
+Content-Length: 76
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://www.eteverslearningenter.com
+Referer: http://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeDMg.9XHTsngBJQEdcoUqqqzWLKZWd7Y
+Via: 1.1 mE0553D84F462 (squid/5.7)
+Cache-Control: max-age=259200
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 104
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76579
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 104
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 86
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzrsNwzAMBcBdVKfQo2lJ9DIGf0LS2nEVZPcYyAKH-5R9Hnk-y_Y-rnyU_RVlKx0yJUNlib6YzJWHGsGlyoQy1aUPXhMgVakk4ezG4eqhMVs1X-FDW0e2TGs0iHk6MlNphQDT_AZq42phkDa6dSKP0cPNyx25zjz-GwDl-wNp3jDc.ZoeJyg.5vBYmAfX1fr3VBzNGxR23W2_fsM
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 85
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzksKwkAMANC7ZO1ikmY-6WVKvii4anEl3l3BCzzeG44687rDXvq88gbHI2CHiVKSobLF3Eyq81IjdGlSqExtm4t7IpKqNJJwduNw9dCo0cw7-tIxMUemDVrEXI6ZqdRREMv8B7TBzcJQxpo2iTzWDDeHX-R15fnfICJ8vpxUMSc.ZoeZ0g.4mVLxc3jrbsP52JGo-tgtVj6cvQ
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 85
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzksKwkAMANC7ZO1ikmY-6WVKvii4anEl3l3BCzzeG44687rDXvq88gbHI2CHiVKSobLF3Eyq81IjdGlSqExtm4t7IpKqNJJwduNw9dCo0cw7-tIxMUemDVrEXI6ZqdRREMv8B7TBzcJQxpo2iTzWDDeHX-R15fnfICJ8vpxUMSc.ZoeZ0g.4mVLxc3jrbsP52JGo-tgtVj6cvQ
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzksKwkAMANC7ZO1ikmY-6WVKvii4anEl3l3BCzzeG44687rDXvq88gbHI2CHiVKSobLF3Eyq81IjdGlSqExtm4t7IpKqNJJwduNw9dCo0cw7-tIxMUemDVrEXI6ZqdRREMv8B7TBzcJQxpo2iTzWDDeHX-R15fnfICJ8vpxUMSc.ZoeZ0g.4mVLxc3jrbsP52JGo-tgtVj6cvQ
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzksKwkAMANC7ZO1ikmY-6WVKvii4anEl3l3BCzzeG44687rDXvq88gbHI2CHiVKSobLF3Eyq81IjdGlSqExtm4t7IpKqNJJwduNw9dCo0cw7-tIxMUemDVrEXI6ZqdRREMv8B7TBzcJQxpo2iTzWDDeHX-R15fnfICJ8vpxUMSc.ZoeZ0g.4mVLxc3jrbsP52JGo-tgtVj6cvQ
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+INFO:app:Retrieved IP address: 175.196.82.2
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 175.196.82.2
+X-Forwarded-For: 175.196.82.2
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 76
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=.eJwlzksKwkAMANC7ZO1ikmY-6WVKvii4anEl3l3BCzzeG44687rDXvq88gbHI2CHiVKSobLF3Eyq81IjdGlSqExtm4t7IpKqNJJwduNw9dCo0cw7-tIxMUemDVrEXI6ZqdRREMv8B7TBzcJQxpo2iTzWDDeHX-R15fnfICJ8vpxUMSc.ZoeZ0g.4mVLxc3jrbsP52JGo-tgtVj6cvQ
+
+
+DEBUG:app:Raw remote_addr: 175.196.82.2
+DEBUG:app:Access attempt from IP: 175.196.82.2
+[2024-07-05 10:34:22 +0000] [28682] [ERROR] Worker (pid:28685) was sent SIGHUP!
+[2024-07-05 10:34:22 +0000] [28682] [ERROR] Worker (pid:28686) was sent SIGHUP!
+[2024-07-05 10:34:22 +0000] [28682] [ERROR] Worker (pid:28687) was sent SIGHUP!
+[2024-07-05 10:34:22 +0000] [28682] [ERROR] Worker (pid:28688) was sent SIGHUP!
+[2024-07-05 10:34:22 +0000] [19060] [INFO] Booting worker with pid: 19060
+[2024-07-05 10:34:22 +0000] [19061] [INFO] Booting worker with pid: 19061
+[2024-07-05 10:34:22 +0000] [19062] [INFO] Booting worker with pid: 19062
+[2024-07-05 10:34:22 +0000] [28682] [INFO] Handling signal: hup
+[2024-07-05 10:34:22 +0000] [28682] [INFO] Hang up: Master
+[2024-07-05 10:34:22 +0000] [19065] [INFO] Booting worker with pid: 19065
+[2024-07-05 10:34:22 +0000] [19064] [INFO] Booting worker with pid: 19064
+[2024-07-05 10:34:22 +0000] [19063] [INFO] Booting worker with pid: 19063
+[2024-07-05 10:34:22 +0000] [19066] [INFO] Booting worker with pid: 19066
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926291d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926292d40>
+DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+/home/ec2-user/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/endpoints.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926292d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926297d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926297d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/sdk-default-configuration.json
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926298d40>
+DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa926298d40>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259200e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f50e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa92591f0e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f40e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259210e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254f60e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9258a90e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254fb0e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259280e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254fb0e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9259280e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254fa0e0>
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/partitions.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa9258a90e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa9254fb0e0>
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591ee60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591de60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa92591ee60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa925926e60>
+[2024-07-05 10:34:27 +0000] [19060] [INFO] Worker exiting (pid: 19060)
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa925925e60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+[2024-07-05 10:34:27 +0000] [19061] [INFO] Worker exiting (pid: 19061)
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa925925e60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa925926e60>
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: environment_global
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_service
+DEBUG:botocore.configprovider:Looking for endpoint for s3 via: config_global
+DEBUG:botocore.configprovider:No configured endpoint found.
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.loaders:Loading JSON file: /home/ec2-user/.local/lib/python3.7/site-packages/botocore/data/_retry.json
+DEBUG:botocore.client:Registering retry handlers for service: s3
+DEBUG:botocore.utils:Registering S3 region redirector handler
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+DEBUG:botocore.utils:Registering S3Express Identity Resolver
+[2024-07-05 10:34:27 +0000] [19062] [INFO] Worker exiting (pid: 19062)
+[2024-07-05 10:34:27 +0000] [28682] [ERROR] Worker (pid:19060) was sent SIGTERM!
+[2024-07-05 10:34:27 +0000] [28682] [ERROR] Worker (pid:19062) was sent SIGTERM!
+[2024-07-05 10:34:28 +0000] [28682] [ERROR] Worker (pid:19061) was sent SIGTERM!
+INFO:app:Retrieved IP address: 183.97.187.5
+DEBUG:app:Full headers: Host: www.eteverslearningenter.com
+X-Real-Ip: 183.97.187.5
+X-Forwarded-For: 183.97.187.5
+X-Forwarded-Proto: https
+Connection: close
+Content-Length: 61
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://www.eteverslearningenter.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.eteverslearningenter.com/register
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remember_token=111|c3e101b7190ddde090a497ac169f0182f0878e05c97231711c733fde784e7ec9c70f4b249bb002c1c364289b6257b9f393439b0fc0077eeb3825e84169264543; session=eyJfZnJlc2giOmZhbHNlLCJfdXNlcl9pZCI6IjExMSJ9.ZoigUA.UzQ99nDPp7D0uC1fN7IbIX9SRl4
+
+
+DEBUG:app:Raw remote_addr: 183.97.187.5
+DEBUG:app:Access attempt from IP: 183.97.187.5
+[2024-07-06 02:17:45 +0000] [19063] [INFO] Worker exiting (pid: 19063)
+[2024-07-06 02:17:45 +0000] [19064] [INFO] Worker exiting (pid: 19064)
+Fetched records for user_id 111: []
+Generated attendance text: 
+[2024-07-06 02:17:45 +0000] [19065] [INFO] Worker exiting (pid: 19065)
+[2024-07-06 02:17:45 +0000] [19066] [INFO] Worker exiting (pid: 19066)
+[2024-07-06 02:17:45 +0000] [28682] [INFO] Handling signal: term
+[2024-07-06 02:17:45 +0000] [28682] [ERROR] Worker (pid:19066) was sent SIGTERM!
+[2024-07-06 02:17:45 +0000] [28682] [ERROR] Worker (pid:19065) was sent SIGTERM!
+[2024-07-06 02:17:45 +0000] [28682] [ERROR] Worker (pid:19063) was sent SIGTERM!
+[2024-07-06 02:17:45 +0000] [28682] [ERROR] Worker (pid:19064) was sent SIGTERM!
+[2024-07-06 02:17:45 +0000] [28682] [INFO] Shutting down: Master

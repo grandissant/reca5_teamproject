@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Etevers Learning Attendance</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    <script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+</head>
+<body class="landing is-preload">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="{{ url_for('index') }}">Etevers Learning</a></h1>
+            <nav id="nav">
+                <ul>
+                    {% if current_user.is_authenticated %}
+                        <li>Welcome, {{ current_user.name }}</li>
+                        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('index') }}">Home</a></li>
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            <span class="image featured"><img src="/static/images/logo-blue.png" alt="" />
+                <h2>에티버스러닝 출석체크</h2>
+            </span>
+            <ul class="actions special">
+                {% if current_user.is_authenticated %}
+                    <!-- 로그인한 사용자에게는 '출석하기' 버튼만 표시 -->
+                    <li><a href="{{ url_for('register') }}" class="button primary">출석하기</a></li>
+                {% else %}
+                    <!-- 인증되지 않은 사용자에게 로그인 및 회원가입 옵션 표시 -->
+                    <li><a href="{{ url_for('login') }}" class="button primary">로그인</a></li>
+                    <li><a href="{{ url_for('join_membership') }}" class="button">회원가입</a></li>
+                {% endif %}
+            </ul>
+        </section>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/util.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+</body>
+</html>
